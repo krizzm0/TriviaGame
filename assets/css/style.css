@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
+#bannerDiv {
+	position: relative;
+}
+
+#bannerIMG {
+	height: 300px;
+	display: block;
+	margin: auto;
+}
+
+#pixar {
+	height: 50px;
+	margin: auto;
+	display: block;
+	position: absolute;
+	bottom: 50px;
+	left: 40%;
+}
+
+#mainContent {
+	width: 1181.78px;
+	margin: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}

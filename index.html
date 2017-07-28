@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Pixar Trivia Game</title>
+	 <!-- Link to jQuery Library -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="bannerDiv">
+	<img id="bannerIMG" src="assets/images/banner.jpg">
+	<img id="pixar" src="assets/images/pixar.png">
+</div>
+
+<div id="mainContent">
+	<button type="button" id="startBTN">Start</button>
+	<div class="hidden" id="triviaQs">
+		<p>Time Remaining: <span id="timer">120</span><span> seconds</span></p>
+		<br>
+		<p>What is the name of Merida's horse in Brave?</p>
+		<input name="1" type="radio" class="correctAnswer">Angus</input>
+		<input name="1" type="radio">Fergus</input>
+		<input name="1"type="radio">Gordan</input>
+		<input name="1"type="radio">Hamish</input>
+		<br>
+		<br>
+		<p>True or false: Toy Story was released in 1996.</p>
+		<input name="2"type="radio">True</input>
+		<input name="2"type="radio" class="correctAnswer">False</input>
+		<br>
+		<br>
+		<p>What Disney Pixar movie is this quote from: "I saw a really hairy guy, he looked like a bear."</p>
+		<input name="3" type="radio">Silver</input>
+		<input name="3" type="radio" class="correctAnswer">Blue</input>
+		<input name="3" type="radio">Purple</input>
+		<input name="3" type="radio">Green</input>
+		<br>
+		<br>
+		<p>In the movie Cars, what color is Sally Carrera?</p>
+		<input name="4" type="radio">UP!</input>
+		<input name="4" type="radio">Brave</input>
+		<input name="4" type="radio">The Incredibles</input>
+		<input name="4" type="radio" class="correctAnswer">Inside Out</input>
+		<br>
+		<br>
+		<p>In Ratatouille, what is the name of the restaurant Colette, Linguine, and Remy open at the end of the movie?</p>
+		<input name="5" type="radio">Cafe de Remy</input>
+		<input name="5" type="radio" class="correctAnswer">La Ratatouille</input>
+		<input name="5" type="radio">Remy's</input>
+		<input name="5" type="radio">Cafe de Ratatouille</input>
+		<br>
+		<br>
+		<p>Finish the quote: "Well, you can't never let anything happen to him. Then nothing would ever happen to him. Not much fun for little _____________."</p>
+		<input name="6" type="radio">Elmo</input>
+		<input name="6" type="radio" class="correctAnswer">Harpo</input>
+		<input name="6" type="radio">Nemo</input>
+		<input name="6" type="radio">Fabio</input>
+		<br>
+		<br>
+		<p>Who composed the music for Monsters, Inc?</p>
+		<input name="7" type="radio">Alan Menken</input>
+		<input name="7" type="radio">Danny Elfman</input>
+		<input name="7" type="radio" class="correctAnswer">Randy Newman</input>
+		<input name="7" type="radio">Howard Ashman</input>
+		<br>
+		<br>
+		<p>What does Edna Mode believe looking back distracts from?</p>
+		<input name="8" type="radio">Success</input>
+		<input name="8" type="radio" class="correctAnswer">The now</input>
+		<input name="8" type="radio">Happiness</input>
+		<input name="8" type="radio">The future</input>
+		<br>
+		<br>
+		<p>Finish the quote: "Good work, men. _______ blocks down and only _______ more to go.</p>
+		<input name="9" type="radio">Eight, two</input>
+		<input name="9" type="radio">Three, seventeen</input>
+		<input name="9" type="radio">Five, four</input>
+		<input name="9" type="radio" class="correctAnswer">Two, nineteen</input>
+		<br>
+		<br>
+		<p>True or false: Hayden Panettiere voiced Dot in A Bug's Life.</p>
+		<input name="10" type="radio">False</input>
+		<input name="10" type="radio" class="correctAnswer">True</input>
+		<br>
+		<br>
+		<button type="submit" id="submitBTN">Submit</button>
+	</div>
+
+	<div class="hidden" id="results">
+		<p>Results</p>
+		<p>Correct: </p>
+		<p>Incorrect: </p>
+		<p>Score: </p>
+	</div>
+</div>
+
+<!-- Custom JavaScript File -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
